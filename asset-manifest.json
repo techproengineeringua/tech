@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.72ff4b10.css",
-    "main.js": "/static/js/main.93ca6d9b.js",
-    "static/js/787.9718534a.chunk.js": "/static/js/787.9718534a.chunk.js",
+    "main.js": "/static/js/main.806ffb8e.js",
+    "static/js/787.150c3b70.chunk.js": "/static/js/787.150c3b70.chunk.js",
     "static/media/ProTech.mp4": "/static/media/ProTech.0635690087be4a0f9cd9.mp4",
     "static/media/ProTech_Mobile.mp4": "/static/media/ProTech_Mobile.7d14cf16e6378ad78d0c.mp4",
     "static/media/clip.mp4": "/static/media/clip.b019c77b4bfe332a54ca.mp4",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/static/media/logo.b1803179787a1e19e817.png",
     "index.html": "/index.html",
     "main.72ff4b10.css.map": "/static/css/main.72ff4b10.css.map",
-    "main.93ca6d9b.js.map": "/static/js/main.93ca6d9b.js.map",
-    "787.9718534a.chunk.js.map": "/static/js/787.9718534a.chunk.js.map"
+    "main.806ffb8e.js.map": "/static/js/main.806ffb8e.js.map",
+    "787.150c3b70.chunk.js.map": "/static/js/787.150c3b70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72ff4b10.css",
-    "static/js/main.93ca6d9b.js"
+    "static/js/main.806ffb8e.js"
   ]
 }
