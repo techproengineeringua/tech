@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/tech/static/css/main.7310c9c2.css",
-    "main.js": "/tech/static/js/main.abf0a25f.js",
-    "static/js/787.150c3b70.chunk.js": "/tech/static/js/787.150c3b70.chunk.js",
-    "static/media/ProTech.mp4": "/tech/static/media/ProTech.0635690087be4a0f9cd9.mp4",
-    "static/media/ProTech_Mobile.mp4": "/tech/static/media/ProTech_Mobile.7d14cf16e6378ad78d0c.mp4",
-    "static/media/clip.mp4": "/tech/static/media/clip.b019c77b4bfe332a54ca.mp4",
-    "static/media/lazerna_rezka.mp4": "/tech/static/media/lazerna_rezka.4427c401d6ae241f1b50.mp4",
-    "static/media/shlifuvanya_ta_turbogaltuvanya.mp4": "/tech/static/media/shlifuvanya_ta_turbogaltuvanya.4bb40a106e32a075d155.mp4",
-    "static/media/poroshkove_farbuvanya.mp4": "/tech/static/media/poroshkove_farbuvanya.c46dfc3ed9b8c87a1e81.mp4",
-    "static/media/ultrafioletovyy_druk.mp4": "/tech/static/media/ultrafioletovyy_druk.cdae95f9c0f71c90bb31.mp4",
-    "static/media/sklostrumeneva_ta_piskostrumeneva_obrobka.png": "/tech/static/media/sklostrumeneva_ta_piskostrumeneva_obrobka.d5a3fa30f59e661e810d.png",
-    "static/media/tech_pro.png": "/tech/static/media/tech_pro.cdac0d7ace88c6b29c42.png",
-    "static/media/ultrazvukove_promyslove_ochyschenya.png": "/tech/static/media/ultrazvukove_promyslove_ochyschenya.1afa5d93abb22bdcc475.png",
-    "static/media/lazerne_graviyuvanya.png": "/tech/static/media/lazerne_graviyuvanya.f54e7c954a926833954d.png",
-    "static/media/logo.png": "/tech/static/media/logo.b1803179787a1e19e817.png",
-    "index.html": "/tech/index.html",
-    "main.7310c9c2.css.map": "/tech/static/css/main.7310c9c2.css.map",
-    "main.abf0a25f.js.map": "/tech/static/js/main.abf0a25f.js.map",
-    "787.150c3b70.chunk.js.map": "/tech/static/js/787.150c3b70.chunk.js.map"
+    "main.css": "/static/css/main.72ff4b10.css",
+    "main.js": "/static/js/main.806ffb8e.js",
+    "static/js/787.150c3b70.chunk.js": "/static/js/787.150c3b70.chunk.js",
+    "static/media/ProTech.mp4": "/static/media/ProTech.0635690087be4a0f9cd9.mp4",
+    "static/media/ProTech_Mobile.mp4": "/static/media/ProTech_Mobile.7d14cf16e6378ad78d0c.mp4",
+    "static/media/clip.mp4": "/static/media/clip.b019c77b4bfe332a54ca.mp4",
+    "static/media/lazerna_rezka.mp4": "/static/media/lazerna_rezka.4427c401d6ae241f1b50.mp4",
+    "static/media/shlifuvanya_ta_turbogaltuvanya.mp4": "/static/media/shlifuvanya_ta_turbogaltuvanya.4bb40a106e32a075d155.mp4",
+    "static/media/poroshkove_farbuvanya.mp4": "/static/media/poroshkove_farbuvanya.c46dfc3ed9b8c87a1e81.mp4",
+    "static/media/ultrafioletovyy_druk.mp4": "/static/media/ultrafioletovyy_druk.cdae95f9c0f71c90bb31.mp4",
+    "static/media/sklostrumeneva_ta_piskostrumeneva_obrobka.png": "/static/media/sklostrumeneva_ta_piskostrumeneva_obrobka.d5a3fa30f59e661e810d.png",
+    "static/media/tech_pro.png": "/static/media/tech_pro.cdac0d7ace88c6b29c42.png",
+    "static/media/ultrazvukove_promyslove_ochyschenya.png": "/static/media/ultrazvukove_promyslove_ochyschenya.1afa5d93abb22bdcc475.png",
+    "static/media/lazerne_graviyuvanya.png": "/static/media/lazerne_graviyuvanya.f54e7c954a926833954d.png",
+    "static/media/logo.png": "/static/media/logo.b1803179787a1e19e817.png",
+    "index.html": "/index.html",
+    "main.72ff4b10.css.map": "/static/css/main.72ff4b10.css.map",
+    "main.806ffb8e.js.map": "/static/js/main.806ffb8e.js.map",
+    "787.150c3b70.chunk.js.map": "/static/js/787.150c3b70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7310c9c2.css",
-    "static/js/main.abf0a25f.js"
+    "static/css/main.72ff4b10.css",
+    "static/js/main.806ffb8e.js"
   ]
 }
