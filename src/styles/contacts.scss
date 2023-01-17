@@ -1,0 +1,82 @@
+@use 'variables' as v;
+
+.section_contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 7vw;
+
+  &_container {
+    display: flex;
+    gap: 30px;
+
+    @media screen and (max-width: 1150px) {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    &_contact-item {
+      width: 350px;
+      height: 220px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: 500ms;
+
+      @media screen and (max-width: 460px) {
+        width: 95vw;
+        height: 170px;
+        padding: 15px 0;
+        font-size: 12px;
+      }
+
+      &:hover .section_contacts_container_contact-item_title {
+        color: v.$green;
+      }
+
+      &_icon {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 20px;
+      }
+
+      .icon-phone {
+        background: url(./../media/phone-32.png) no-repeat center;
+      }
+
+      .icon-email {
+        background: url(./../media/email-32.png) no-repeat center;
+      }
+
+      .icon-location {
+        background: url(./../media/ukraine-32.png) no-repeat center;
+        background-size: 100% 100%;
+      }
+
+      &_title {
+        text-transform: uppercase;
+        text-align: center;
+        transition: 500ms;
+        font-weight: 700;
+        letter-spacing: 0;
+        color: rgba(148, 148, 148, 0.484);
+        margin-bottom: 20px;
+      }
+
+      &_text {
+        letter-spacing: 0;
+        color: white;
+      }
+    }
+  }
+}
+
+.contact-us-page {
+  padding-top: v.$footer;
+
+  @media screen and (max-width: 460px) {
+    padding-top: 100px;
+  }
+}

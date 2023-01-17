@@ -1,0 +1,119 @@
+@use 'variables' as v;
+
+.header {
+  position: fixed;
+	z-index: 5;
+	left: 0;
+	top: 0;
+	width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7vw;
+  transition: 500ms;
+
+  @media screen and (max-width: 640px) {
+    padding: 20px;
+  }
+
+  &_logo {
+    height: 50px;
+
+    @media screen and (max-width: 1000px) {
+      height: 40px;
+    }
+
+    @media screen and (max-width: 640px) {
+      height: 30px;
+    }
+  }
+
+  &_container {
+    display: flex;
+    gap: 40px;
+  }
+
+  &_nav {
+    display: flex;
+    gap: 40px;
+
+    @media screen and (max-width: 1000px) {
+      gap: 30px;
+    }
+
+    @media screen and (max-width: 850px) {
+      display: none;
+    }
+
+    &_link {
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 500ms;
+
+      &:hover {
+        color: v.$green;
+      }
+    }
+  }
+
+  &_nav.drawer-menu {
+    @media screen and (max-width: 850px) {
+      position: relative;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+      left: -100%;
+      width: 100vw;
+      height: 100vh;
+      background: v.$black;
+      transition: 700ms;
+      z-index: 10;
+
+      &.active {
+        left: 0;
+      }
+      
+    }
+  }
+
+  &_menu-btn {
+    height: 40px;
+    width: 40px;
+    border: none;
+    transition: 500ms;
+
+    @media screen and (min-width: 851px) {
+      display: none;
+    }
+  }
+
+  &_menu-btn.btn-open {
+    background: url(../media/icons8-menu-30.png) no-repeat center;
+  }
+
+  &_menu-btn.btn-close {
+    position: absolute;
+    z-index: 15;
+    top: 20px;
+    right: 20px;
+    background: url(../media/cancel.png) no-repeat center;
+    background-size: 20px 20px;
+  }
+}
+
+.language-switch-btn {
+  width: 32px;
+  height: auto;
+  border: none;
+
+  &--ua {
+    background: url(./../media/ukraine-32.png) no-repeat center;
+  }
+
+  &--en {
+    background: url(./../media/eng-32.png) no-repeat center;
+  }
+}

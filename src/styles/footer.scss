@@ -1,0 +1,29 @@
+@use 'variables' as v;
+
+.footer {
+  height: v.$footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(148, 148, 148, 0.484);
+
+  &_icons {
+    display: flex;
+    margin-bottom: 15px;
+
+    &_icon {
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  .facebook {
+    background: url(../media/facebook-3-24.png) no-repeat;
+    margin-left: 15px;
+  }
+
+  .instagram {
+    background: url(../media/instagram-24.png) no-repeat;
+  }
+}

@@ -1,0 +1,80 @@
+@use 'variables' as v;
+
+.section_feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .feedback-form {
+    width: 60%;
+
+    @media screen and (max-width: 640px) {
+      width: 95%;
+    }
+  }
+}
+
+.feedback-form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+  &_input {
+    background: black;
+    padding: 15px;
+    color: white;
+    letter-spacing: 2px;
+
+    &::placeholder {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0;
+      opacity: 0.7;
+    }
+  }
+
+  &_input[type=textarea] {
+    height: 150px;
+    resize: vertical;
+  }
+
+  .validated {
+    border-color: v.$green;
+  }
+
+  .button-primary {
+    align-self: center;
+  }
+
+  .checkbox {
+    &_options {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+
+      &_option {
+        margin: 10px 30px;
+      }
+
+      &_input {
+        opacity: 0;
+        height: 0;
+
+        &:checked + .checkbox_options_label {
+          color: v.$green;
+        }
+      }
+    }
+
+    label {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: rgba(148, 148, 148, 0.484);
+    }
+  }
+}
+
+.feedback-page {
+  margin-top: 60px;
+}
